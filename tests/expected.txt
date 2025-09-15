@@ -1,0 +1,75 @@
+prec1=6
+expr2=2.5
+tilde_hex=-13
+a=b? false
+a/=b? true
+a>b? false
+a>=b? false
+a<b? true
+a<=b? true
+when: branch-1
+nested-when: then
+if: less-case
+switch: two
+sum1=3
+sum2=7
+prec1=6
+expr2=4.5
+tilde_hex=-13
+a=b? true
+a/=b? false
+a>b? false
+a>=b? true
+a<b? false
+a<=b? true
+when: branch-1
+nested-when: else
+if: equal-case
+switch: two
+sum1=4
+sum2=27
+prec1=-1
+expr2=1.5
+tilde_hex=-13
+a=b? false
+a/=b? true
+a>b? true
+a>=b? true
+a<b? false
+a<=b? false
+when: else-branch
+if: greater-case
+switch: other
+sum1=1
+sum2=1
+prec1=0
+expr2=3
+tilde_hex=-13
+a=b? false
+a/=b? true
+a>b? true
+a>=b? true
+a<b? false
+a<=b? false
+when: branch-1
+nested-when: else
+if: greater-case
+switch: zero
+zero:nested-false
+sum1=3
+sum2=1
+prec1=1
+expr2=2.05
+tilde_hex=-13
+a=b? false
+a/=b? true
+a>b? true
+a>=b? true
+a<b? false
+a<=b? false
+when: else-branch
+if: greater-case
+switch: one
+one:nested-when
+sum1=3
+sum2=1

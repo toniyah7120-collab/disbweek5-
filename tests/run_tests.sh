@@ -3,9 +3,9 @@ set -euo pipefail
 
 # Set TL to the command that runs your TargetLang source.
 # Examples:
-#   export TL="dune exec targetlang --"
-#   export TL="python3 interpreter.py"
-#   export TL='docker run --rm -v "$PWD:/app" targetlang /app'
+#   export TL="dune exec targetlang --"        # OCaml/dune compiler
+#   export TL="python3 interpreter.py"         # Python interpreter
+#   export TL='docker run --rm -v "$PWD:/app" targetlang /app'   # Docker image
 : "${TL:?Set TL to your interpreter command, e.g. export TL='dune exec targetlang --'}"
 
 # Run program, capture output
